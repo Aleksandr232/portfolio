@@ -1,0 +1,51 @@
+.promo{
+    min-height: 100vh;
+    position: relative;
+    background: url('https://st3.depositphotos.com/1006362/12625/i/600/depositphotos_126254668-stock-photo-garibaldi-lake-in-canada.jpg')no-repeat  50%/cover;  
+    padding-top: 205px;   
+}
+
+.promo_text{
+    width: 245px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    
+    
+}
+
+.portfolio{
+    width: 135px;
+    height: 45px;
+    background-color: $main-color;
+    color:#000000;
+    margin: 25px;
+    border-radius: 10px;
+    &:hover{
+        content:'';
+        transform: translate(10px);
+    }
+}
+
+.me{
+    color: #000;
+    text-decoration: none;
+    &:hover{
+        content: '';
+        color: $main-color;
+    }
+}
+
+.circle{
+    position: relative;
+    padding-left: 10px;
+    z-index: 2;
+    @include before_circle;
+    
+    
+
+    
+}
