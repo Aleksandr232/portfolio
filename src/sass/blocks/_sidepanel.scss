@@ -23,5 +23,11 @@
             width: 150px;
         }
     }
+    &__link:hover{
+        content: '';
+        transform: translateX(5px);
+    }
+
+    
 
 }
