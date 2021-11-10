@@ -1,0 +1,37 @@
+.about{
+    padding-top: 120px;
+    &__wrapper{
+        display: grid;
+        grid-template-columns: 640px 670px;
+        grid-template-rows: 650px minmax(245px, auto) minmax(245px, auto);
+        grid-auto-rows: minmax(245px, auto);
+        column-gap: 50px;
+        row-gap: 20px;
+    }
+    &__photo{
+        grid-row: 1/3;
+        img{
+            width: 100%;
+        }
+    }
+    &__skills{
+        margin: -429px 0px 0px 0px ;
+    }
+    &__text{
+        margin: 10px;
+        width: 500px;
+    }
+    &__skills-text{
+        width: 300px;
+    }
+   
+
+
+    
+}
+
+.web{
+    left:-50px;
+    top: 30px;
+    
+}
