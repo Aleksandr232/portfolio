@@ -1,0 +1,65 @@
+@media (max-width: 575px){
+
+html {
+    overflow-x: hidden;
+      }
+    
+body{
+    overflow-x: hidden;
+    }
+
+.promo{
+    width: 100%;
+}
+
+.title_fz16{
+    font-size: 14px;
+}
+
+.title_fz48{
+    font-size: 30px;
+    line-height: 45px
+}
+
+.sidepanel{
+    display: none;
+}
+
+.menu__block{
+    width: 100%;
+    height: 500px;
+}
+
+#wr{
+display: block;
+}
+
+#skil{
+    margin: 36px 46px;
+    width:100%;
+
+}
+
+
+#skiltext{
+    width: 199px;
+    margin: 15px -14px;
+}
+
+.title_fz36{
+    font-size: 25px;
+}
+
+#ab{
+    display: block;
+    width:340px;
+    margin: 10px 4px;
+    
+}
+
+.about__photo{
+    width: 340px;
+    height: 340px;
+} 
+ 
+}
