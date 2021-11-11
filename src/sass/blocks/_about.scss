@@ -13,16 +13,27 @@
         img{
             width: 100%;
         }
-    }
-    &__skills{
-        margin: -429px 0px 0px 0px ;
-    }
+    
     &__text{
         margin: 10px;
         width: 500px;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 21px;
+        color: #000000;
     }
     &__skills-text{
         width: 300px;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 18px;
+        color: #000000;
+    }
+    &__skills{
+        display:grid;
+        grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+        column-gap:50px;
+        row-gap: 20px;
     }
    
 
@@ -33,5 +44,11 @@
 .web{
     left:-50px;
     top: 30px;
-    
-}
+    cursor: pointer;
+    &:hover{
+        content:'';
+        transform: rotate(-360deg);
+        transition: 0.6s all;
+    }
+}    
+
