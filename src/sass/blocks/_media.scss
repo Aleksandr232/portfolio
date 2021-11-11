@@ -43,23 +43,26 @@ display: block;
 
 #skiltext{
     width: 199px;
-    margin: 15px -14px;
+    margin: 15px -31px;
 }
 
 .title_fz36{
     font-size: 25px;
 }
 
-#ab{
-    display: block;
-    width:340px;
-    margin: 10px 4px;
-    
+.about__descr{
+    width:25%;
 }
 
 .about__photo{
-    width: 340px;
-    height: 340px;
+    width: 35%;
+    height: 35%;
 } 
+
+
+
+p{
+    width:50%;
+}
  
 }
