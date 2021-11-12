@@ -1,0 +1,32 @@
+.frameworks{
+    padding: 50px;
+    &__wrapper{
+        display: grid;
+        grid-template-columns: repeat(4, 270px);
+        column-gap:13px;
+        row-gap: 13px;
+    }
+    &__elem{
+        width: 270px;
+        height: 270px;
+        border: 1px solid black;
+        box-sizing: border-box;
+    }
+    &__subtitle{
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 18px;
+        color: #000000;
+        width:211px;
+        margin: 10px auto;
+    }
+    &__name{
+        font-weight: 700;
+        padding-left: 35px;
+        font-size: 14px;
+        line-height: 21px;
+        color: #000000;
+    }   
+     
+}
+
