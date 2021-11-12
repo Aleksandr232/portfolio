@@ -1,5 +1,9 @@
 @media (max-width: 575px){
 
+.hamburger:hover{
+    transform: rotate(9deg);
+}   
+
 html {
     overflow-x: hidden;
       }
