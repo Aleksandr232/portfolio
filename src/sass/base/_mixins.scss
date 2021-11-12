@@ -8,6 +8,20 @@
         background-color: $main-color;
         z-index: -1;
         top: -25%;
-        left: 0;
+        /* left: 0; */
     }
 }
+
+/* @mixin before_circle_resume{
+    &:before{
+        content:'';
+        position: absolute;
+        height: 36px;
+        width: 36px;
+        border-radius: 100%;
+        background-color: $main-color;
+        z-index: -1;
+        top: -25%;
+        
+    }
+} */

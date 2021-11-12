@@ -3,7 +3,7 @@
     &__wrapper{
         display: grid;
         grid-template-columns: 640px 670px;
-        grid-template-rows: 650px minmax(245px, auto) minmax(245px, auto);
+        grid-template-rows: 650px minmax(15px, auto) minmax(245px, auto);
         grid-auto-rows: minmax(245px, auto);
         column-gap: 50px;
         row-gap: 20px;
