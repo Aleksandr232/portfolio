@@ -129,3 +129,47 @@ p{
     }
     
 }
+
+
+
+@media (max-width: 870px){
+    .hamburger:hover{
+        transform: rotate(9deg);
+    }   
+
+    html {
+        overflow-x: hidden;
+          }
+        
+    body{
+        overflow-x: hidden;
+        }
+    
+    .promo{
+        width: 100%;
+    }
+    
+    .sidepanel{
+        display: none;
+    }
+    
+    .menu__block{
+        width: 80%;
+        height: 500px;
+    }
+    
+    
+    #fra{
+        margin: 0px -386px 0px 0px;
+    }
+    
+
+    #meportfolio{
+        margin: 0px -386px 0px 0px;
+    }
+    
+    
+    
+    
+
+}
