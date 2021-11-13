@@ -86,7 +86,7 @@ p{
 #fra{
     width:100%;
     margin:2px 0px;   
-    padding: 0px;
+    padding-top: 73px;
 }
 
 #frameworks__wrapper{
@@ -99,9 +99,33 @@ p{
     margin: 10px 61px 10px;
 }
 
+.meportfolio{
+    width:100%;
+}
+
+#work__me{
+    display: grid;
+    grid-template-columns: repeat(1,280px);
+    row-gap:2px;
+    margin: 10px 70px;
+}
 
 
 
+}
 
+@media(max-width: 320px){
+    #frameworks__wrapper{
+        display: grid;
+        grid-template-columns: repeat(1,270px);
+        margin: 10px -30px;
+    }  
 
+    #work__me{
+        display: grid;
+        grid-template-columns: repeat(1,280px);
+        row-gap:2px;
+        margin: 10px 24px;
+    }
+    
 }

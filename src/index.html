@@ -71,10 +71,10 @@
             </div>
             <nav>
                 <ul class="menu__list">
-                    <li class="menu__link"><a href="">ПРО МЕНЯ</a></li>
-                    <li class="menu__link"><a href="">МОЙ ОПЫТ</a></li>
-                    <li class="menu__link"><a href="">МОИ НАВЫКИ</a></li>
-                    <li class="menu__link"><a href="">МОИ РАБОТЫ</a></li>
+                    <li class="menu__link"><a href="#wr">ПРО МЕНЯ</a></li>
+                    <li class="menu__link"><a href="#container_resume">МОЙ ОПЫТ</a></li>
+                    <li class="menu__link"><a href="#fra">МОИ НАВЫКИ</a></li>
+                    <li class="menu__link"><a href="#work__me">МОИ РАБОТЫ</a></li>
                 </ul>
             </nav>
             <div class="menu__social">
@@ -101,8 +101,8 @@
             <div class="title title_fz16 circle">Меня зовут Александр Мельников</div>
             <h1 class="title title_fz48 promo__title ">
                 Я web-разработчик<br> из города Казани</h1>
-            <a href=""><button class="portfolio">Портфолио</button></a>
-            <a class='me' href="">Про меня</a>
+            <a href="#meportfolio"><button class="portfolio">Портфолио</button></a>
+            <a class='me' href="#wr">Про меня</a>
         </div>
     </section>
 
@@ -198,13 +198,11 @@
                 </div>
             </div>
         </div>
-
-        <div class="frameworks" id="fra">
-            <h2 class="title title_fz16 resume__title circle">Навыки</h2>
-            <div class="title title_fz36 resume__subtitle" id='frameworks__sub'>Что я использую в работе</div>
-            <div class="diviader diviader_resume"><span></span></div>
-        </div>
-
+    </section>
+    <section class="frameworks" id="fra">
+        <h2 class="title title_fz16 resume__title circle">Навыки</h2>
+        <div class="title title_fz36 resume__subtitle" id='frameworks__sub'>Что я использую в работе</div>
+        <div class="diviader diviader_resume"><span></span></div>
         <div class="container">
             <div class="frameworks__wrapper" id="frameworks__wrapper">
                 <div class="frameworks__elem " id="frameworks__elem">
@@ -252,10 +250,24 @@
         </div>
     </section>
 
+    <section class="meportfolio" id="meportfolio">
+        <h2 class="title title_fz16 resume__title circle">Портфолио</h2>
+        <div class="title title_fz36 resume__subtitle" id='frameworks__sub'>Мои работы</div>
+        <div class="diviader diviader_resume"><span></span></div>
+        <div class="container">
+           <div class="work__me" id="work__me">
+            <a href="https://aleksandr232.github.io/aleksandr232.garminpolarsunnto.io/"><img src="img/works/pulse.jpg" alt=""></a>
+            <a href="https://aleksandr232.github.io/"><img src="img/works/uber.jpg" alt=""></a>
+            <a href="https://aleksandr232.github.io/rowingtatarstan.io/"><img src="https://im.kommersant.ru/Issues.photo/LifeStyle_Online/2019/06/27/KMO_120232_20616_1_t218_153158.jpg" width="280px" height='280px' alt=""></a>
+            <a href=""><img src="http://www.sostav.ru/blogs/images/feeds/22/43095.jpg" width="280px" height='280px' alt=""></a> 
+           </div>
+        </div>
+    </section>
 
 
 
-    <script src="js/script.js"></script>
+ <script src="js/script.js"></script>
+
 </body>
 
 </html>
