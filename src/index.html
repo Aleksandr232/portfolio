@@ -91,7 +91,7 @@
         <div class="menu__overlay"></div>
     </div>
 
-    <section class="promo">
+    <section class="promo" id="promo">
         <div class="hamburger">
             <span></span>
             <span class="long"></span>
@@ -101,7 +101,7 @@
             <div class="title title_fz16 circle">Меня зовут Александр Мельников</div>
             <h1 class="title title_fz48 promo__title ">
                 Я web-разработчик<br> из города Казани</h1>
-            <a href="#meportfolio"><button class="portfolio">Портфолио</button></a>
+            <a href="#meportfolio"><button class="btn">Портфолио</button></a>
             <a class='me' href="#wr">Про меня</a>
         </div>
     </section>
@@ -109,7 +109,7 @@
     <section class="about">
         <div class="container">
             <div id='wr' class="about__wrapper">
-                <img src="img/main_photo.jpg" alt="" class="about__photo">
+                <img src="img/main_photo.jpg" alt="" class="about__photo" id="abp">
                 <div class="about__descr">
                     <h2 class="title title_fz16 about__title circle">Про меня</h2>
                     <div class="title title_fz36 about__subtitle">Меня зовут Александр</div>
@@ -265,6 +265,51 @@
         </div>
     </section>
 
+
+    <section class="contacts">
+        <div class="container">
+            <div class="contacts__wrapper" id="contacts__wrapper">
+                <div class="contacts__photo">
+                    <img src="img/main_photo.jpg " width="400px" height="600px"  alt="" class="contacts__photo">
+                </div>
+                <div class="contacts__descr" id="contacts__descr">
+                    <h2 class="title title_fz16 about__title circle">Контакты</h2>
+                    <div class="title title_fz36 about__subtitle">Свяжитесь со мной</div>
+                    <div class="diviader"><span></span></div>
+    
+                    <div class="title title_fz14 contacts__text">Любым удобным для вас способом:</div>
+                    <div class="contacts__social">
+                        <a href="https://telegram.me/aleksmelniks" class="contacts__link">
+                            <img src="https://aleksandr232.github.io/rowingtatarstan.io/icons/telegram.gif" height="30px" alt="">
+                        </a>
+                        <a href="https://www.instagram.com/melnikrowing1999/?hl=ru" class="contacts__link">
+                            <img src="https://img.icons8.com/material-outlined/20/000000/instagram-new--v2.gif" height="30px" /> 
+                        </a>
+                        <a href="" class="contacts__link">
+                            <img src="https://img.icons8.com/ios-filled/20//facebook--v2.gif" height="30px" /> 
+                        </a>
+                        <div class="title title_fz14 contacts__text">Или оставьте ваши данные и я сама вам напишу:</div>
+                        <form action="" class="contacts__form" id="contacts__form">
+                            <div class="contacts__input">
+                                <input name="name" id="name" type="text">
+                                <label for="name">Ваше имя</label>
+                            </div>
+                            <div class="contacts__input">
+                                <input name="email" id="email" type="email">
+                                <label for="email">Ваша почта</label>
+                            </div>
+                            <div class="contacts__textarea">
+                                <textarea name="text" id="text" ></textarea>
+                                <label for="text">Ваше сообщение</label>
+                            </div>
+                            <button id="#" class="contacts__btn">Отправить сообщение</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
 
 
     <script src="js/script.js"></script>

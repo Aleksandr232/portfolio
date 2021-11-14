@@ -1,3 +1,78 @@
+@media (max-width: 870px){
+    .hamburger:hover{
+        transform: rotate(9deg);
+    }   
+
+    html {
+        overflow-x: hidden;
+          }
+        
+    body{
+        overflow-x: hidden;
+        }
+    
+    #promo{
+        width: 100%;
+    }
+    
+    #wr{
+        display: grid;
+        grid-template-columns: 252px 507px;
+        grid-template-rows: 677px minmax(15px, auto) minmax(245px, auto);
+        grid-auto-rows: minmax(245px, auto);
+        column-gap: 50px;
+        row-gap: 20px;
+    }
+    
+    .about__photo{
+        width:100%;
+    }
+    
+    .sidepanel{
+        display: none;
+    }
+
+    .menu__block{
+        height: 423px;
+    }
+
+    #resume__wrapper{
+        padding: 60px 65px 0 65px;
+        display: grid;
+        grid-template-columns: repeat(2,379px);
+        column-gap: 135px;
+    }
+    
+    #container_resume{
+        width:100%;
+    }
+
+    #frameworks__wrapper{
+        display: grid;
+        grid-template-columns: repeat(3,270px);
+        column-gap: 13px;
+        row-gap: 13px;
+    }
+    
+    #work__me {
+        display: grid;
+        grid-template-columns: repeat(3,280px);
+    }
+
+    #contacts__wrapper{
+        padding: 0px 140px 0px 6px;
+    }
+
+    
+    #contacts__form{
+        display: grid;
+        grid-template: 45px 190px 45px / repeat(2, 200px);
+        width:10px;
+    }
+}
+
+
+
 @media (max-width: 575px){
 
 .hamburger:hover{
@@ -110,86 +185,27 @@ p{
     margin: 10px 70px;
 }
 
+#contacts__wrapper{
+    display: block;
+    
+}
+#contacts__descr{
+    width:100%;
+}
 
+#contacts__form{
+    display: block;
+    width: 350px;
+    top: 10px;
+}
+
+.contacts__input{
+    margin: 19px 0px;
+}
 
 }
 
-@media(max-width: 320px){
-    #frameworks__wrapper{
-        display: grid;
-        grid-template-columns: repeat(1,270px);
-        margin: 10px -30px;
-    }  
-
-    #work__me{
-        display: grid;
-        grid-template-columns: repeat(1,280px);
-        row-gap:2px;
-        margin: 10px 24px;
-    }
-    
-}
 
 
 
-@media (max-width: 870px){
-    .hamburger:hover{
-        transform: rotate(9deg);
-    }   
 
-    html {
-        overflow-x: hidden;
-          }
-        
-    body{
-        overflow-x: hidden;
-        }
-    
-    .promo{
-        width: 100%;
-    }
-    
-    #wr{
-        display: grid;
-        grid-template-columns: 252px 507px;
-        grid-template-rows: 677px minmax(15px, auto) minmax(245px, auto);
-        grid-auto-rows: minmax(245px, auto);
-        column-gap: 50px;
-        row-gap: 20px;
-    }
-    
-    .about__photo{
-        width: 100%;
-    }
-    
-    .sidepanel{
-        display: none;
-    }
-
-    .menu__block{
-        height: 423px;
-    }
-
-    #resume__wrapper{
-        padding: 60px 65px 0 65px;
-        display: grid;
-        grid-template-columns: repeat(2,379px);
-        column-gap: 135px;
-    }
-    
-    #container_resume{
-        width:100%;
-    }
-
-    #frameworks__wrapper{
-        display: grid;
-        grid-template-columns: repeat(3,270px);
-        column-gap: 13px;
-        row-gap: 13px;
-    }
-    
-    #work__me {
-        display: grid;
-        grid-template-columns: repeat(3,280px);
-    }
-}
