@@ -74,7 +74,7 @@
                     <li class="menu__link"><a href="#wr">ПРО МЕНЯ</a></li>
                     <li class="menu__link"><a href="#container_resume">МОЙ ОПЫТ</a></li>
                     <li class="menu__link"><a href="#fra">МОИ НАВЫКИ</a></li>
-                    <li class="menu__link"><a href="#work__me">МОИ РАБОТЫ</a></li>
+                    <li class="menu__link"><a href="#meportfolio">МОИ РАБОТЫ</a></li>
                 </ul>
             </nav>
             <div class="menu__social">
@@ -144,7 +144,7 @@
         </div>
     </section>
 
-    <section class="resume">
+    <section class="resume" id="resume">
         <div class="container" id="container_resume">
             <h2 class="title title_fz16 resume__title circle">Опыт</h2>
             <div class="title title_fz36 resume__subtitle">Чем я буду полезен</div>
@@ -302,7 +302,13 @@
                                 <textarea name="text" id="text" ></textarea>
                                 <label for="text">Ваше сообщение</label>
                             </div>
-                            <button id="#" class="contacts__btn">Отправить сообщение</button>
+                            <div class="contacts__triggers" id="contacts__triggers">
+                                <button id="#" class="contacts__btn">Отправить сообщение</button>
+                                <div class="contacts__policy">
+                                    <input required type="checkbox">
+                                    <span>Я согласен с <a href="">политикой конфиденциальности</a></span>
+                                </div>
+                            </div>
                         </form>
                     </div>
                 </div>
