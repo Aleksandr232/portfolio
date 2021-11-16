@@ -188,11 +188,14 @@ p{
 
 #work__me{
     display: grid;
-    grid-template-columns: repeat(1,280px);
+    grid-template-columns: repeat(1,270px);
     row-gap:2px;
-    margin: 10px 70px;
+    margin: 10px 80px;
 }
 
+.workelem{
+    width:248px;
+}
 #contacts__wrapper{
     display: block;
     
